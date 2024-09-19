@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+/*espacio para contenedor madree :p*/
+
+.container-Madre{
+    display: flex;
+    justify-content: space-between;
+}
+/*Container 1 :o*/
+
+
+.container-1{
+    background-color: #000000;
+    height: 750px;
+    width:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.letras{
+    background-color: rgb(0, 0, 0);
+    height:394px;
+    width: 550px;
+}
+.saludo{
+    font-size: 90px; 
+    font-family: poppins;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 
+    1px 1px 0 #000000,
+    0px 0px 0 #ffdf2b, 
+    2px 2px 0 #ffdf2b; 
+    transform: translateY(100%);
+    animation: cortinaAnimacion 2s forwards;
+}
+
+.saludo2{
+    color: #ffdf2b;
+    font-size: 78px;
+    font-family: poppins;
+    transform: translateY(100%);
+    animation: cortinaAnimacion 2s forwards;
+}
+
+.colegio{
+    color: gray;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    transform: translateY(100%);
+    animation: cortinaAnimacion 2s forwards;
+}
+
+.aml a{
+    text-decoration: none;
+    color: gray;
+    margin: 4px;
+}
+
+.aml a:hover{
+    
+    color: #ffdf2b;
+    font-weight: bold;
+}
+
+@keyframes cortinaAnimacion {
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*container 2 :DDD*/
+
+.navbar{
+    background-color: gray;
+    height: 100px;
+    width: 931px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 40px;
+}
+
+.nav-links a {
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 2px;
+}
+.presentacion-de-mi{
+    height: 650px;
+    width: 931px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img3{
+    width: 100%;
+    height: 100%; 
+    transition: transform 0.5s ease;
+}
+.presentacion-de-mi:hover .img3{
+    transform: scale(1.1);
+}
+
+.btnn{
+    background-color: #000000;
+    color: #fff;
+    height: 80px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 30px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 550px;
+    left: 680px;
+}
+.btnn:hover{
+    transform: scale(1.1);
+}
+
+
+/*FOOTEEEEEEEEEEEEERRRRR*/
+
+footer{
+    background-color: rgb(230, 230, 230);
+    width: 0 auto;
+    height: 400px;
+}
+
+/*VIENE EL PADREEE*/
+.container-Padre{
+    display: flex;
+
+}
+
+/*seguimo mi gente*/
+
+.resume{
+    padding-top: 100px;
+    margin-left: 200px;
+    font-family: poppins;
+}
+.resume h3{
+    font-weight: 300;
+}
+
+
+.info{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.info a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.info a:hover{
+    transform: translateY(-5px);
+}
+
+.contactop{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.contactop:hover{
+    transform: scale(1.1);
+}
+
+.secciones{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.secciones a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.secciones a:hover{
+    transform: translateY(-5px);
+}
+
+.seccions{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.seccions:hover{
+    transform: scale(1.1);
+}
+
+/*Derechos :ppp*/
+
+.texto{
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    margin-top: 20px;
+    width: 0 auto;
+    height: 80px;
+}
+.texto h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}

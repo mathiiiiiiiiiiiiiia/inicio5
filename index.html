@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/logo.png" href="/images/logo.png">
+</head>
+
+<body>
+
+    <div class="container-Madre">
+
+
+        <div class="container-1">
+            <div class="video1">
+                <video height="319" autoplay muted>
+                    <source src="/images/anim1.mp4" type="video/mp4">
+                    <source src="anim1.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="letras">
+                <h1 class="saludo">HOLAAA!!</h1>
+                <h2 class="saludo2">SOY MATHIAS</h2>
+                <p class="colegio">estudiante del colegio <span class="aml"><a href="https://www.arturomattelarrain.cl">AML</a></span></p>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="http://127.0.0.1:3000/index.html">Inicio</a></li>
+                    <li><a href="http://127.0.0.1:3002/index.html">Acerca de</a></li>
+                    <li><a href="http://127.0.0.1:3004/index.html">Skills</a></li>
+                    <li><a href="http://127.0.0.1:3006/index.html">Proyectos</a></li>
+                    <li><a href="http://127.0.0.1:3008/index.html">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <div class="presentacion-de-mi">
+                <img src="/images/as.jpg" alt="presentacion.jpg" class="img3">
+                <button class="btnn" id="irAlFinal">More info.</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="container-Padre">
+            <div class="resume" id="final">
+                <h2>RESUMEN</h2>
+                <h3>Basicamente es lo que viene <br> a ser mi carrera <br> como tecnico <br> profesional :p</h3>
+            </div>
+            
+            <div class="info">
+                <a class="contactop" href="http://127.0.0.1:3008/index.html">Contacto</a>
+                <a href="https://wa.me/5698747760?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" target="_blank">WhatsApp</a>
+                <a href="https://www.instagram.com/math1.611/">Instagram</a>
+                <a href="https://discord.gg/VxBANM7nb8">Discord</a>
+                <a href="http://127.0.0.1:3008/index.html">Formulario</a>
+            </div>
+
+
+            <div class="secciones">
+                <a class="seccions" href="#navfooter">Secciones</a>
+                <a href="http://127.0.0.1:3000/index.html">Inicio</a>
+                <a href="http://127.0.0.1:3002/index.html">Acerca de</a>
+                <a href="http://127.0.0.1:3004/index.html">Skills</a>
+                <a href="http://127.0.0.1:3006/index.html">Proyectos</a>
+                <a href="http://127.0.0.1:3008/index.html">Contacto</a>
+            </div>
+        </div>
+        <div class="texto">
+            <h3>||Todos los derechos son reservados||</h3>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        document.getElementById('irAlFinal').addEventListener('click', function() {
+            document.getElementById('final').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
